@@ -33,3 +33,11 @@ footer {
     padding: 10px;
     background-color: #1f1f1f;
 }
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    }body {
+    font-family: 'Poppins', sans-serif;
+}
