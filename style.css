@@ -72,3 +72,47 @@ window.addEventListener("load", function(){
 });html {
     scroll-behavior: smooth;
 }
+.button-3d {
+  background: linear-gradient(145deg, #1e1e1e, #2a2a2a);
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #131313, -5px -5px 15px #2e2e2e;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 15px 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-3d:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px #131313, -10px -10px 20px #2e2e2e;
+    }@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+  font-family: 'Orbitron', sans-serif;
+        }document.querySelectorAll(".button-3d").forEach((btn) => {
+  btn.addEventListener("mouseenter", () => {
+    btn.style.transform = "scale(1.1)";
+  });
+  btn.addEventListener("mouseleave", () => {
+    btn.style.transform = "scale(1)";
+  });
+});.neon-text {
+  color: #fff;
+  text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+
+.neon-box {
+  border: 2px solid #ff00ff;
+  box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+  padding: 20px;
+  border-radius: 10px;
+    }body {
+  background: #121212;
+  color: #ffffff;
+}
+.container {
+  background: linear-gradient(145deg, #191919, #222222);
+  border-radius: 15px;
+  box-shadow: 10px 10px 30px #0a0a0a, -10px -10px 30px #2e2e2e;
+  padding: 20px;
+}
